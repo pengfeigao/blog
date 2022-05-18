@@ -1,2 +1,3 @@
-# blog
-AKid Blog
+# Blog
+
+https://www.gaopengfei.tech
