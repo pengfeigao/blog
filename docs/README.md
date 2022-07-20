@@ -4,10 +4,9 @@ layout: Blog
 icon: home
 title: 博客主页
 heroImage: /logo.svg
-heroText: 高鹏飞的技术笔记
+heroText: 你博客的名称
 heroFullScreen: true
-bgImage: "./blog-background.svg"
-tagline: 穷不怪父，孝不比兄，苦不责妻，气不凶子，一生向阳！
+tagline: 你可以在这里放置你的口号与标语
 projects:
   - icon: project
     name: 项目名称
@@ -39,5 +38,11 @@ projects:
     desc: 自定义详细介绍
     link: https://你的自定义链接
 
-footer: <a href="https://beian.miit.gov.cn" target="_blank">京ICP备2022010614号-2</a> | 主题：<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank">VuePress Theme Hope</a>
+footer: 自定义你的页脚文字
 ---
+
+这是一个博客主页的案例。
+
+要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+
+相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。
