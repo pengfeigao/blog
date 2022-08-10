@@ -3,7 +3,6 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   "/home",
-  { text: "使用指南", icon: "creative", link: "/guide/" },
   {
     text: "博文",
     icon: "edit",
@@ -45,8 +44,91 @@ export default navbar([
     ],
   },
   {
-    text: "主题文档",
-    icon: "note",
-    link: "https://vuepress-theme-hope.github.io/v2/zh/",
+    text: "Java",
+    icon: "java",
+    prefix: "/java/",
+    children: [
+      {
+        text: "基础",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+        ],
+      },
+      {
+        text: "集合",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+        ],
+      },
+      {
+        text: "IO",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+        ],
+      },
+      {
+        text: "并发编程",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+        ],
+      },
+      {
+        text: "JVM",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+        ],
+      },
+    ]
   },
+  {
+    text: "Android",
+    icon: "android",
+    prefix: "/android/",
+    children: [
+      {
+        text: "文章 1-4",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+          "article3",
+          "article4",
+        ],
+      },
+    ]
+  },
+  {
+    text: "Python",
+    icon: "python",
+    prefix: "/python/",
+    children: [
+      {
+        text: "文章 1-4",
+        icon: "edit",
+        prefix: "article/",
+        children: [
+          { text: "文章 1", icon: "edit", link: "article1" },
+          { text: "文章 2", icon: "edit", link: "article2" },
+          "article3",
+          "article4",
+        ],
+      },
+    ]
+  }
 ]);

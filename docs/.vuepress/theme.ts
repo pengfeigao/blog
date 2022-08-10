@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  repo: "pengfeigao/blog-new",
+  repo: "pengfeigao/blog",
 
   docsDir: "docs",
 

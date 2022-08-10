@@ -3,7 +3,7 @@ home: true
 icon: home
 title: 项目主页
 heroImage: /logo.svg
-heroText: 项目名称
+heroText: 技术笔记
 tagline: 你可以在这里放置或是整个项目的描述。
 actions:
   - text: 使用指南 💡
@@ -99,7 +99,7 @@ features:
     details: 包括图标支持、全屏按钮、返回顶部按钮等
     link: https://vuepress-theme-hope.github.io/v2/zh/guide/feature/
 copyright: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: <a href="https://beian.miit.gov.cn" target="_blank">京ICP备2022010614号-2</a> | 主题：<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank">VuePress Theme Hope</a>
 ---
 
 这是项目主页的案例。你可以在这里放置你的主体内容。
